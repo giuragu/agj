@@ -28,6 +28,10 @@ a.link
   font-weight: 700;
 }
 
+.nome em {
+  font-size: 60px;
+}
+
 .nome h1 {
   color: #FF8000;
 }
