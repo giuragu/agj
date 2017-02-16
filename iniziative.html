@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<title>Associazione Genitori Jatini > Servizio mensa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Associazione Genitori Jatini">
+  <meta name="author" content="Associazione Genitori Jatini">
+  <meta property="og:title" content="Associazione Genitori Jatini" />
+  <meta property="og:image" content="http://associazioneagj.it/img/newlogoagj.jpg" />
+<meta property="og:type" content="website" />
+
+  <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+  <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+  <!--script src="js/less-1.3.3.min.js"></script-->
+  <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+	<link href="css/agj.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  	<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+<!--
+    <script type="text/javascript" src="./js/ga.js"></script>
+  -->
+
+
+
+  <!-- <link rel="exhibit/data"
+  type="application/jsonp"
+  href="https://spreadsheets.google.com/feeds/cells/1VsQyMg7OlgPjyY_NsxUpjZ2ZzzElZtohALaYvAoj2EU/3/public/basic?alt=json-in-script"
+  ex:converter="googleSpreadsheets" /> -->
+  <script src="./js/dist/exhibit-api.js?locale=it"></script>
+  <script type="text/javascript">
+  var tableStyler = function(table, database) {
+    $(table).addClass("table table-condensed table-striped");
+  };
+  </script>
+
+
+</head>
+
+<body>
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4eda567433e0df40" async="async"></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="./js/zorn/wz_tooltip.js"></script>
+  <div class="row clearfix">
+   <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <!--
+          <a class="navbar-brand logo" href="./index.html">
+          <img style="max-width:100px; margin-top: 7px;"  src="./img/pitrusino.png">
+          </a>
+        -->
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="container">
+					<ul class="nav navbar-nav dropdown">
+						<li>
+								<a href="./index.html">Home</a>
+						</li>
+
+						<li>
+								<a href="./chi_siamo.html">Chi siamo</a>
+						</li>
+
+						<li>
+								<a href="./come_associarsi_contribuire.html">Come associarsi/contribuire</a>
+						</li>
+
+						<li>
+								<a href="./servizio_mensa.html">Servizio Mensa</a>
+						</li>
+
+						<li>
+							<a href="./la_scuola.html">La Scuola</a>
+						</li>
+
+						<li>
+								<a href="./bacheca.html">Bacheca</a>
+						</li>
+						<li>
+								<a href="./dicono_di_noi.html">Dicono di noi</a>
+						</li>
+						<li>
+								<a href="./photogallery.html">Photo Gallery</a>
+						</li>
+
+
+
+							<!-- Approfondimenti
+							<li class="dropdown">
+																			<li>
+																					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Approfondimenti tematici
+																					<span class="caret"></span></a>
+																							<ul class="dropdown-menu">
+																									<li><a href="./approfondimenti/educazionealimentare.html">Educazione alimentare</a></li>
+																									<li><a href="./approfondimenti/educazioneambientale.html">Educazione ambientale</a></li>
+
+																							</ul>
+
+																			</li> -->
+
+
+								<li>
+										<a href="./contatti.html">Contatti</a>
+								</li>
+
+
+
+
+
+<!-- AMALISI E DATI
+<li>
+									<a href="./analisi_e_dati.html">Analisi e dati</a>
+							</li>
+						-->
+
+	</ul>
+				<!-- NAV BAR RIGHT
+
+				<ul class="nav navbar-nav navbar-right">
+ 					<li>
+          	<a href="http://Sbilanciamoci.org/chi-siamo/gli-aderenti/" target="_blank">Chi siamo </a>
+        	</li>
+        </ul>
+				 NAV BAR RIGHT -->
+  </div>
+</div>
+
+
+</nav>
+</div>
+</div>
+
+<div id="main" class="container">
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <div class="jumbotron">
+
+        <div class="page-header">
+          <h1>
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
+          </span>
+					Iniziative
+          </h1>
+        </div>
+
+
+          </div>
+        </div>
+
+
+ </div>
+
+<div class="container">
+
+
+<div class="col-md-12 column">
+<h3><strong>AGJ aderisce alla campagna M’illumino di Meno: il 24/02/2017 condividiamo risorse</strong></h3><br>
+<p class="comunicato" style="font-size:20px">
+La campagna "M’illumino di Meno", ideata dal programma radiofonico Caterpillar (in onda su RaiRadio2), ritorna il <b>24/02/2017</b> e arriva quest'anno alla sua tredicesima edizione.<br>
+L'iniziativa mira a sensibilizzare l'opinione pubblica sui temi ambientali e in particolar modo sul risparmio energetico.<br>
+Quest'anno l'invito per gli aderenti è quello di compiere un gesto di condivisione contro lo spreco di risorse.<br>
+Il motto ne riassume in poche parole il senso: "Spegniamo le luci e accendiamo l’energia della condivisione".
+<br><br><b>L'Associazione Genitori Jatini ha deciso di aderire alla campagna </b>impegnandosi a sollecitare tutti i propri associati ad assumere un comportamento ed uno stile di vita il più "energeticamente responsabile" possibile, suggerendo buone pratiche di <b>condivisione</b> e di <b>risparmio energetico</b>.
+<br><br><br>
+Dal sito ufficiale della campagna <a  href="http://caterpillar.blog.rai.it/milluminodimeno/" target="_blank">M’illumino di Meno</a>:<br><br>
+<i>"Si può condividere l’auto per andare al lavoro.<br>
+Si può condividere la bicicletta e partire tutti insieme.<br>
+Si può iniziare ad usare il bike sharing o il car sharing.<br>
+Si può condividere il cibo: cucinare e mangiare insieme, a casa o in piazza.<br>
+Si può condividere il trapano, la polentiera, l’aspirapolvere, il tosaerba e la lavatrice.<br>
+Si può condividere la casa: con l’ospitalità, lo scambio, il divano o un posto per il sacco a pelo.<br>
+Si può condividere la banda: aprire il proprio wireless, sherare.<br>
+Si può condividere un saper fare: t’appendo quel quadro, t’insegno lo spagnolo, ti riparo la gomma della bicicletta.<br>
+Si può condividere un sapere: lasciare un libro o un giornale.<br>
+Si può condividere lo sport: correre insieme, pedalare, nuotare e sudare.<br>
+Si può condividere un telescopio e guardare le stelle che con le luci spente son più belle. E il cielo è di tutti, già condiviso<br>
+Si possono condividere i vestiti e i giocattoli usati dei nostri figli organizzando un baratto a scuola<br>
+Si possono condividere le incombenze, facciamo che oggi te lo porto fuori il cane<br>
+Si possono condividere i genitori e i bambini facendo i compiti insieme<br>
+Si può condividere qualsiasi cosa. Si può condividere un po’ di tempo. In silenzio. Si può anche parlare e ascoltarsi"<br></i><br><br>
+
+<img class="img-responsive" src="./img/millumino-di-meno-2017-locandina-bianca2.png" alt="">
+</p>
+
+</div>
+<br>
+
+
+
+						</div>
+</div>
+
+      <div class="row clearfix">
+        <div class="col-md-12 column">
+        </div>
+     </div>
+
+   </div>
+
+   <hr>
+	 <footer>
+	  <p class="text-center">
+	     <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Questo sito è stato realizzato gratuitamente da genitori/soci riutilizzando la piattaforma creata da <a href="http://ondata.it/">Ondata.it</a> nell'ambito del progetto <a href="http://controfinanziaria.sbilanciamoci.org/">"ControFinanziaria"</a> di <a href="http://www.sbilanciamoci.org/">Sbilanciamoci.org</a> <br> <p class="text-center" > I contenuti sono gestiti da un gruppo di lavoro interno all'associazione e distribuiti con Licenza <br><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>
+	 		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="alignleft" alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+	 </p>
+
+	 </footer>
+
+</div>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88345601-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
